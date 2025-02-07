@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="index.js">
+    <title>Sololearn Project Robot Dancing</title>
+</head>
+
+<body>
+    <h1>The Dancing Robot</h1>
+
+    <p>“The Dancing Robot” is a web-based mobile robot project designed to provide a dynamic visual experience by 
+      allowing the robot image to move right, left, and return to its original position. This project uses a 
+      combination of HTML, CSS, and JavaScript to achieve interactive and responsive animation effects.</p>
+    <p>Using HTML, we create the basic structure of a web page, including robot image elements, 
+      and navigation controls. HTML provides the framework necessary to place these elements appropriately 
+      on the page.</p>
+    <p>CSS plays a role in defining the appearance and visual effects of robots and their 
+      animations. Through CSS, we can set the robot's starting position and apply styles that make the animation
+      interesting. To create the movement effect, CSS is used in combination with JavaScript to manipulate the 
+      transformation properties that allow the robot to move horizontally. By using keyframes in CSS, we can beautify 
+      the appearance of the project so that it is pleasing to the eye too.</p>
+    <p>JavaScript is an important component in controlling robot movement animations. With JavaScript,
+      we can write code to change the robot's position based on user interaction or a timer. The JavaScript code 
+      organizes the logic to move the robot to the right by increasing the horizontal position value, to the left
+      by decreasing it, and back to the original position by setting the initial position. JavaScript allows users 
+      to control the robot's movements through buttons or other input, creating an interactive and fun experience.</p>
+    <p>Overall, "The Dancing Robot" is an example of how HTML, CSS, and JavaScript can work together to create an 
+      attractive and functional web-based mobile robot. With a solid HTML structure, dynamic CSS styling, and 
+      JavaScript-based animation controls, this project shows how web technologies can be used to produce stunning 
+      visual effects and intuitive user interactions.</p>
+    <p>Click on the buttons to move the robot!</p>
+    
+    <div class="image-container">
+      <div class= "image-container">
+        <div class="image-wrapper">
+          <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_168210556-stock-photo-dancing-robot-woman-white-metal.jpg';"><span class="text">Dance 1</span></button>
+          <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_165869844-stock-photo-dancing-robot-woman-white-metal.jpg';"><span class="text">Dance 2</span></button>
+          <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_165869848-stock-photo-dancing-robot-woman-white-metal.jpg';"><span class="text">Dance 3</span></button>
+          <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_166566716-stock-photo-dancing-robot-woman-white-metal.jpg';"><span class="text">Dance 4</span></button>          
+          <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_166566720-stock-photo-dancing-robot-woman-white-metal.jpg';"><span class="text">Dance 5</span></button>
+          <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_168210598-stock-photo-dancing-robot-woman-white-metal.jpg';"><span class="text">Dance 6</span></button>        
+          <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_171376030-stock-photo-robot-woman-white-metal-droid.jpg';"><span class="text">Dance 7</span></button>
+          <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_173274722-stock-photo-robot-woman-white-metal-droid.jpg';"><span class="text">Dance 8</span></button>         
+          <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_177206776-stock-photo-robot-woman-white-metal-droid.jpg';"><span class="text">Dance 9</span></button>   
+          <button class="button-64" role="button" onclick="dancer1.src='robot/istockphoto-857137380-612x612.jpg';"><span class="text">Dance 10</span></button>   
+        
+        </div>
+    </div>
+
+    <div class= "image-container">
+      <div class="image-wrapper">
+        <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_224194182-stock-photo-dance-robot-woman-metal-droid.jpg';"><span class="text">Dance 11</span></button>
+        <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_224194198-stock-photo-dance-robot-woman-metal-droid.jpg';"><span class="text">Dance 12</span></button>
+        <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_279108438-stock-photo-robot-woman-white-metal-droid (1).jpg';"><span class="text">Dance 13</span></button>
+        <button class="button-64" role="button" onclick="dancer1.src='robot/depositphotos_291618288-stock-photo-robot-woman-white-metal-droid.jpg';"><span class="text">Dance 14</span></button>          
+        <button class="button-64" role="button" onclick="dancer1.src='robot/istockphoto-857933312-612x612.jpg';"><span class="text">Dance 15</span></button>
+        <button class="button-64" role="button" onclick="dancer1.src='robot/istockphoto-857943720-170667a.jpg';"><span class="text">Dance 16</span></button>        
+        <button class="button-64" role="button" onclick="dancer1.src='robot/istockphoto-1125398315-612x612.jpg';"><span class="text">Dance 17</span></button>
+        <button class="button-64" role="button" onclick="dancer1.src='robot/dancing-robot-woman-white-metal-600nw-712289383.webp';"><span class="text">Dance 18</span></button>   
+        <button class="button-64" role="button" onclick="dancer1.src='robot/istockphoto-857137558-612x612 (1).jpg';"><span class="text">Dance 19</span></button>   
+        <button class="button-64" role="button" onclick="dancer1.src='robot/istockphoto-857137882-612x612.jpg';"><span class="text">Dance 20</span></button>        
+      </div>
+  </div>
+
+      <img id="dancer1" src="robot/depositphotos_168210556-stock-photo-dancing-robot-woman-white-metal.jpg" alt="Gambar 1" title="Female Robot Dancer 1">
+      <img id="robot" src="https://blob.sololearn.com/courses/robot-c.jpg" alt="Gambar 2" title="Blob">
+      <img id="dancer2" src="robot/depositphotos_168210556-stock-photo-dancing-robot-woman-white-metal.jpg" alt="Gambar 3" title="Female Robot Dancer 2">
+    
+      <div class="image-container">
+        <div class="image-wrapper">
+          <button class="button-64" role="button" onclick="dancer2.src='robot/depositphotos_168210556-stock-photo-dancing-robot-woman-white-metal.jpg';"><span class="text">Dance 1</span></button>
+          <button class="button-64" role="button" onclick="dancer2.src='robot/depositphotos_177206704-stock-photo-robot-woman-white-metal-droid.jpg';"><span class="text">Dance 2</span></button>
+          <button class="button-64" role="button" onclick="dancer2.src='robot/depositphotos_198585186-stock-photo-robot-woman-fighting-action-metal.jpg';"><span class="text">Dance 3</span></button>
+          <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-857933156-612x612.jpg';"><span class="text">Dance 4</span></button>   
+          <button class="button-64" role="button" onclick="dancer2.src='robot/depositphotos_206034158-stock-photo-robot-woman-metal-droid-artificial.jpg';"><span class="text">Dance 5</span></button>
+          <button class="button-64" role="button" onclick="dancer2.src='robot/depositphotos_218883378-stock-photo-robot-woman-metal-droid-artificial (1).jpg';"><span class="text">Dance 6</span></button>
+          <button class="button-64" role="button" onclick="dancer2.src='robot/depositphotos_221087984-stock-photo-dance-robot-woman-metal-droid (1).jpg';"><span class="text">Dance 7</span></button>
+          <button class="button-64" role="button" onclick="dancer2.src='robot/depositphotos_222306800-stock-photo-dance-robot-woman-metal-droid.jpg';"><span class="text">Dance 8</span></button>   
+          <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-857137960-612x612.jpg';"><span class="text">Dance 9</span></button>   
+          <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-857138032-612x612.jpg';"><span class="text">Dance 10</span></button>   
+        </div>
+    </div>
+    
+    <div class= "image-container">
+      <div class="image-wrapper">
+        <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-1127073859-612x612.jpg';"><span class="text">Dance 11</span></button>
+        <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-1125399231-612x612.jpg';"><span class="text">Dance 12</span></button>
+        <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-1060494332-612x612.jpg';"><span class="text">Dance 13</span></button>
+        <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-1057161416-612x612.jpg';"><span class="text">Dance 14</span></button>          
+        <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-1055219786-612x612.jpg';"><span class="text">Dance 15</span></button>
+        <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-927355940-612x612.jpg';"><span class="text">Dance 16</span></button>        
+        <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-890719330-612x612.jpg';"><span class="text">Dance 17</span></button>
+        <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-857943660-612x612.jpg';"><span class="text">Dance 18</span></button>   
+        <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-857932976-612x612.jpg';"><span class="text">Dance 19</span></button>   
+        <button class="button-64" role="button" onclick="dancer2.src='robot/istockphoto-857933224-612x612.jpg';"><span class="text">Dance 20</span></button>   
+      </div>
+    </div>
+  </div>
+
+<br>
+  <div class="navbar" role="button">
+    <button class="button-85" role="button" onclick="robot.src='https://blob.sololearn.com/courses/robot-l.jpg';">Left</button>
+    <button class="button-85" role="button" onclick="robot.src='https://blob.sololearn.com/courses/robot-c.jpg';">Center</button>
+    <button class="button-85" role="button" onclick="robot.src='https://blob.sololearn.com/courses/robot-r.jpg';">Right</button> 
+    
+  <div class="wrapper">
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+    <div><span class="dot"></span></div>
+  </div>
+</body>
+</html>
